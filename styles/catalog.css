@@ -1,0 +1,28 @@
+.catalog__visually-hidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px; }
+
+.catalog__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 944px;
+  margin: 0 auto;
+  list-style-type: none; }
+
+.catalog__item {
+  margin: 50px 48px 0 0; }
+
+.catalog__item:nth-child(4n) {
+  margin: 50px 0 0; }
+
+/*# sourceMappingURL=catalog.css.map */

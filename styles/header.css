@@ -1,0 +1,27 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  width: 1024px;
+  height: 60px;
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 50px; }
+  @media screen and (min-width: 1200px) {
+    .header {
+      width: 1200px; } }
+  .header__img {
+    width: 40px;
+    height: 40px; }
+
+/*# sourceMappingURL=header.css.map */
