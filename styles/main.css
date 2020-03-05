@@ -132,9 +132,6 @@ body {
   .card__photo {
     height: 134px;
     width: 160px;
-    background-image: url("../images/imac.jpeg");
-    background-size: 160px 134px;
-    background-repeat: no-repeat;
     margin: 15px 5px 42px; }
   .card__name {
     font-weight: 500;
