@@ -1,4 +1,4 @@
-.link-buy {
+.button-buy__link-buy {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -21,7 +21,7 @@
   border: 1px solid #00acdc;
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
-  .link-buy:hover {
+  .button-buy__link-buy:hover {
     background: #fff;
     color: #00acdc; }
 
