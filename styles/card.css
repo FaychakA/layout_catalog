@@ -6,16 +6,7 @@
   border: 1px solid #f3f3f3;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  border-radius: 5px;
-  /*&__photo:hover {
-    position: relative;
-    height: $card-photo-height * 1.2;
-    width: $card-photo-width * 1.2;
-    border: 3px solid #f3f3f3;
-    box-sizing: border-box;
-    padding: 15px 5px 45px;
-    margin: 0;
-  }*/ }
+  border-radius: 5px; }
   .card__photo {
     height: 134px;
     width: 160px;
@@ -26,7 +17,7 @@
     line-height: 15px; }
   .card__code {
     margin-top: 5px; }
-    .card__code .code--link {
+    .card__code--link {
       text-decoration: none;
       color: #000; }
   .card__review {
