@@ -19,7 +19,9 @@
   text-decoration: none;
   border: 1px solid #00acdc;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
+          box-sizing: border-box;
+  -webkit-transition: ease-out 1s;
+  transition: ease-out 1s; }
   .link-buy:hover {
     background: #fff;
     color: #00acdc; }

@@ -24,7 +24,9 @@
   line-height: 15px;
   line-height: 60px;
   text-transform: uppercase;
-  color: #000; }
+  color: #000;
+  -webkit-transition: color ease-out 0.4s;
+  transition: color ease-out 0.4s; }
   .nav__link--is-active:first-child {
     color: #00acdc; }
     .nav__link--is-active:first-child::after {
