@@ -22,6 +22,7 @@
     line-height: $header-height;
     text-transform: uppercase;
     color: #000;
+    transition: color ease-out 0.4s;
 
     &--is-active:first-child {
       color: $main-color;
