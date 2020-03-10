@@ -13,7 +13,7 @@
     height: 134px;
     width: 160px;
     padding: 12px 0;
-    margin: 0 auto 27px;
+    margin: 0 auto 30px;
     border: 3px solid transparent;
     border-radius: 3px;
     transition: transform 1s;
@@ -50,10 +50,10 @@
   }
 
   &__review {
-    display: flex;
+    display: grid;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: nowrap;
+    grid-template-columns: repeat(2, auto);
     margin: 15px 0 20px;
 
     .review--link {
@@ -68,9 +68,10 @@
   }
 
   &__price {
-    display: flex;
+    display: grid;
     justify-content: space-between;
     align-items: baseline;
+    grid-template-columns: repeat(2, auto);
     margin-bottom: 20px;
 
     .price__value {

@@ -2,17 +2,17 @@
 @import "./mixins";
 
 .link-buy {
-  display: flex;
-  align-items: center;
+  display: grid;
   justify-content: center;
-  background: $main-color;
-  border-radius: 5px;
+  align-items: center;
   height: $link-buy-height;
   @include font-bold;
   color: #fff;
+  background: $main-color;
   text-transform: uppercase;
   text-decoration: none;
   border: 1px solid $main-color;
+  border-radius: 5px;
   box-sizing: border-box;
   transition: ease-out 1s;
 

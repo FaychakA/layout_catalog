@@ -4,19 +4,15 @@
 .nav {
 
   &__list {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat($header-nav-link-count, auto);
+    grid-column-gap: 20px;
     list-style-type: none;
-  }
-
-  &__item:not(:last-child) {
-    margin-right: 20px;
   }
 
   &__link {
     position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display: grid;
     text-decoration: none;
     @include font-medium;
     line-height: $header-height;
