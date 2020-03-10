@@ -1,20 +1,10 @@
 .catalog__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  grid-column-gap: 48px;
+  grid-row-gap: 50px;
   max-width: 944px;
   margin: auto;
   list-style-type: none; }
-
-.catalog__item {
-  margin: 0 48px 50px 0; }
-
-.catalog__item:nth-child(4n) {
-  margin: 0 0 50px; }
 
 /*# sourceMappingURL=catalog.css.map */

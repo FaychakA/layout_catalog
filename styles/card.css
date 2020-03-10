@@ -10,7 +10,7 @@
     height: 134px;
     width: 160px;
     padding: 12px 0;
-    margin: 0 auto 27px;
+    margin: 0 auto 30px;
     border: 3px solid transparent;
     border-radius: 3px;
     -webkit-transition: -webkit-transform 1s;
@@ -39,17 +39,14 @@
     .card__code--link:hover {
       color: #00acdc; }
   .card__review {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: grid;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    grid-template-columns: repeat(2, auto);
     margin: 15px 0 20px; }
     .card__review .review--link {
       text-decoration: none;
@@ -59,15 +56,14 @@
     .card__review .review--link:hover {
       color: #00acdc; }
   .card__price {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: grid;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
     -webkit-box-align: baseline;
         -ms-flex-align: baseline;
             align-items: baseline;
+    grid-template-columns: repeat(2, auto);
     margin-bottom: 20px; }
     .card__price .price__value {
       font-weight: 700;
